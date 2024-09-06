@@ -1,5 +1,5 @@
 @echo off
-mode con: cols=49 lines=30
+mode con: cols=50 lines=30
 title W1BTR COM Tracker
 setlocal EnableDelayedExpansion
 echo Loading . . .
