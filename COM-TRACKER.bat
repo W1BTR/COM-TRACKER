@@ -3,7 +3,7 @@ mode con: cols=50 lines=30
 title W1BTR COM Tracker
 setlocal EnableDelayedExpansion
 echo Loading . . .
-call Bin\CMDS.bat /ts "Prog Assistant COM Companion"
+call Bin\CMDS.bat /ts "COM WATCHER"
 if !errorlevel!==1 cscript //B //Nologo "Bin\CMS.vbs"
 goto COMS
 

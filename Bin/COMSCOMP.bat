@@ -1,5 +1,5 @@
 @echo off
-title Prog Assistant COM Companion
+title COM WATCHER
 echo COM Companion is running...
 echo Close this window to stop.
 powershell -ExecutionPolicy Bypass -File "Bin\COMCOMP.ps1">nul

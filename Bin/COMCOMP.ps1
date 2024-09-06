@@ -93,11 +93,11 @@ function LogComPortsToFile {
 function CheckAndExit {
     Write-Host "$counter"
     if ($counter % 10 -eq 0) {
-        $cmdProcesses = Get-Process cmd -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -like "*Programming Assistant*" }
+        $cmdProcesses = Get-Process cmd -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -like "*W1BTR COM Tracker*" }
         if ($cmdProcesses) {
-            Write-Host "Programming Assistant is running."
+            Write-Host "COM Tracker is running."
         } else {
-            Write-Host "Programming Assistant is not running. Closing..."
+            Write-Host "COM Tracker is not running. Closing..."
             Exit
         }
     }
